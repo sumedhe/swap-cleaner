@@ -20,7 +20,8 @@ AM_CFLAGS =\
 bin_PROGRAMS = swap_cleaner
 
 swap_cleaner_SOURCES = \
-	main.cc
+	main.cc \
+	commander.h
 
 swap_cleaner_LDFLAGS = 
 
