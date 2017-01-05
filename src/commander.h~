@@ -16,3 +16,31 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+using namespace cmd;
+
+namespace cmd {
+
+	 string execute(string command) {
+    	FILE *in;
+    	char buff[50];
+
+    	if (!(in = popen(command.c_str(), "r"))){
+    		return "Error in excecution!";
+    	}
+
+    	string s;
+    	while(fgets(buff, sizeof(buff), in) != NULL){
+    		s.append(buff);
+    	}
+
+    	cout << s << endl;
+
+    	return s;
+    }
+	 
+ }

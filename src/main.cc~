@@ -69,4 +69,5 @@ int main (int argc, char *argv[])
 
 void on_clean_button_clicked(){
 	execute("gksu -m \"Continue ONLY if there are much space in RAM to free the swap\" 'swapoff -a; swapon -a'");
+	cout << "DOne" <<endl;
 }

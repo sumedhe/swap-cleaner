@@ -1318,7 +1318,8 @@ main.o: /home/sumedhe/Project/swap-cleaner/src/main.cc \
  /usr/include/gtkmm-3.0/gtkmm/uimanager.h \
  /usr/include/gtkmm-3.0/gtkmm/viewport.h \
  /usr/include/gtkmm-3.0/gtkmm/volumebutton.h /usr/include/c++/6/iostream \
- ../config.h /usr/include/libintl.h
+ ../config.h /home/sumedhe/Project/swap-cleaner/src/commander.h \
+ /usr/include/libintl.h
 
 /usr/include/stdc-predef.h:
 
@@ -4179,5 +4180,7 @@ main.o: /home/sumedhe/Project/swap-cleaner/src/main.cc \
 /usr/include/c++/6/iostream:
 
 ../config.h:
+
+/home/sumedhe/Project/swap-cleaner/src/commander.h:
 
 /usr/include/libintl.h:
