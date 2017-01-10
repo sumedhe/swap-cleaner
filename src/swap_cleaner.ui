@@ -22,6 +22,7 @@
             <property name="label" translatable="yes">Swap Cleaner</property>
             <property name="ellipsize">middle</property>
             <attributes>
+              <attribute name="font-desc" value="Yukarimobile 10"/>
               <attribute name="scale" value="3"/>
             </attributes>
           </object>
@@ -57,6 +58,7 @@
                 <property name="can_focus">False</property>
                 <property name="label" translatable="yes">You can boost your computer by cleaning swap area...
 Click 'Clean Now' button to clean the swap area and move them to the RAM...</property>
+                <property name="justify">center</property>
                 <attributes>
                   <attribute name="style" value="oblique"/>
                 </attributes>
